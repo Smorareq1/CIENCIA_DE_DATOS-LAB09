@@ -1,14 +1,24 @@
-# Bitácora — Laboratorio 9
+# Reporte de laboratorio 9
 
 **¿Importa cómo partimos los datos?**
 Universidad Rafael Landívar · Facultad de Ingeniería · Ciencia de Datos · Sección 2
 Ing. Max Cerna · Segundo semestre 2026
 
-**Estudiante:** Smorareq1. Entrega individual: la misma persona programó, registró las tablas y dejó la predicción antes de cada ejecución.
+## Integrantes
+
+| Integrante | Carné |
+|---|---|
+| Erick Eduardo Rivas Avalos | 1116323 |
+| Sebastián Alejandro Morales De La Cruz | 1057123 |
+| Jackeline Raquel Albizures Quevedo | 1122323 |
+| David Stuardo Monje Palomo | 1019123 |
+| Christopher Javier Yuman Valdez | 1160223 |
+
+El enunciado pide tres roles. El grupo los cubrió en conjunto: quien programa dejó el código de las partes A–F sin modificar el bloque del modelo, quien registra llenó las tablas y quien cuestiona anotó la predicción antes de cada ejecución. Cualquiera puede explicar cualquier parte.
 
 El modelo es siempre el mismo. M1 es la regresión logística del enunciado (mediana, escalado, one-hot, `class_weight='balanced'`). M0 es un `DummyClassifier` que siempre responde la clase más común. Lo único que cambia es cómo se separan train y test.
 
-**Uso de IA.** Cursor ayudó a ordenar el notebook, correr el código y redactar esta bitácora. Las predicciones quedaron escritas como hipótesis, y donde fallaron se explica con el número de esta corrida. El razonamiento se puede reconstruir sin la herramienta: lo que se mueve no es el modelo, es el corte.
+**Uso de IA.** Cursor ayudó a ordenar el notebook, correr el código y redactar este reporte. Las predicciones quedaron escritas como hipótesis, y donde fallaron se explica con el número de esta corrida. El razonamiento se puede reconstruir sin la herramienta: lo que se mueve no es el modelo, es el corte.
 
 ---
 

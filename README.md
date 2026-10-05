@@ -5,10 +5,12 @@ Universidad Rafael Landívar
 
 El modelo no cambia. Cambia el corte entre entrenamiento y prueba, y con él cambia el F1.
 
+**Grupo:** Erick Eduardo Rivas Avalos (1116323), Sebastián Alejandro Morales De La Cruz (1057123), Jackeline Raquel Albizures Quevedo (1122323), David Stuardo Monje Palomo (1019123), Christopher Javier Yuman Valdez (1160223).
+
 | Qué | Dónde |
 |---|---|
 | Notebook con las partes A–F, las 17 respuestas y las predicciones | [`laboratorio9_particion.ipynb`](laboratorio9_particion.ipynb) |
-| Bitácora con gráficas y tablas | [`docs/README.md`](docs/README.md) |
+| Reporte con gráficas y tablas | [`docs/README.md`](docs/README.md) |
 | Notebook ya ejecutado, para abrirlo en el navegador | [`docs/notebook.html`](docs/notebook.html) |
 | Enunciado | [`enunciado.pdf`](enunciado.pdf) |
 | Datos | [`pedidos_ruta_verde.csv`](pedidos_ruta_verde.csv) |
