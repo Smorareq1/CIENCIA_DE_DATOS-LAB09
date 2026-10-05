@@ -1,0 +1,24 @@
+---
+description: Contexto del laboratorio 9 para responder sin volver a ejecutar el notebook
+alwaysApply: true
+---
+
+# Laboratorio 9 — responder desde el contexto
+
+Antes de contestar cualquier pregunta de este laboratorio, lee `docs/contexto.md`. Ahí están los integrantes, las 17 respuestas, las predicciones y los F1 de la corrida ya hecha. El reporte largo está en `docs/README.md`.
+
+No instales paquetes, no abras Jupyter y no vuelvas a entrenar el modelo salvo que el usuario lo pida de forma explícita. Si un número no está en `docs/contexto.md`, dilo. No lo calcules de memoria ni lo inventes.
+
+Responde en español, con el razonamiento del grupo, no solo el F1. El modelo no cambia: M1 es la regresión logística del enunciado y M0 siempre dice la clase más común (F1 = 0 en todas las partes). Lo único que cambia es el corte.
+
+Cifras que hay que tener a mano:
+
+- 626 pedidos, 591 con nota, 9.1 % de calificación baja (1 o 2 estrellas). Enero–agosto 2026. 7 restaurantes.
+- Parte A, azar: F1 de 0.095 (semilla 2026, 3 positivos) a 0.246 (semilla 1). Promedio 0.169. La predicción de «unas centésimas» se quedó corta.
+- Parte B, stratify: las cinco semillas tienen 11 positivos. Promedio 0.177, brecha 0.089. Stratify no mejora el modelo; fija la proporción.
+- Parte C, entrenar ene–jun y probar jul–ago: F1 0.037, recall 0.071 (1 de 14). Julio 1.3 %, agosto 17.8 %, y juntos se ven como 9.4 %. Este es el número que se le reporta al gerente.
+- Parte D: test = Burger Xelajú y Café Chuwa. F1 0.103. Es la referencia para un restaurante nuevo. En el azar, los 7 locales aparecen en train y en test.
+- Parte E: las dos versiones empataron en 0.230. La predicción de que la fuga ganaría falló. Sigue siendo inválida.
+- La medición más alta (0.246) y la más confiable para pedidos futuros (0.037) no son la misma.
+
+Grupo: Erick Eduardo Rivas Avalos 1116323, Sebastián Alejandro Morales De La Cruz 1057123, Jackeline Raquel Albizures Quevedo 1122323, David Stuardo Monje Palomo 1019123, Christopher Javier Yuman Valdez 1160223. Los tres roles los cubrió el grupo en conjunto.

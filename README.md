@@ -11,6 +11,7 @@ El modelo no cambia. Cambia el corte entre entrenamiento y prueba, y con él cam
 |---|---|
 | Notebook con las partes A–F, las 17 respuestas y las predicciones | [`laboratorio9_particion.ipynb`](laboratorio9_particion.ipynb) |
 | Reporte con gráficas y tablas | [`docs/README.md`](docs/README.md) |
+| Contexto para preguntar sin volver a correr el notebook | [`docs/contexto.md`](docs/contexto.md) |
 | Notebook ya ejecutado, para abrirlo en el navegador | [`docs/notebook.html`](docs/notebook.html) |
 | Enunciado | [`enunciado.pdf`](enunciado.pdf) |
 | Datos | [`pedidos_ruta_verde.csv`](pedidos_ruta_verde.csv) |
