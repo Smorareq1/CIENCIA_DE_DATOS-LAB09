@@ -1,0 +1,8 @@
+Experimento,F1 de M1,F1 de M0,Qué situación real simula
+"A · aleatorio, mejor semilla (1)",0.246,0.0,Pedidos de todos los meses mezclados; el corte que más favoreció a M1
+"A · aleatorio, peor semilla (2026)",0.095,0.0,"El mismo azar, pero el test se quedó con 3 calificaciones bajas"
+B · con stratify (promedio de 5 semillas),0.177,0.0,Azar que conserva el 9.2 % de bajas en el test. Sirve para comparar modelos
+C · por fecha (jul–ago),0.037,0.0,"Usar el modelo en septiembre, con pedidos que todavía no existen"
+D · por restaurante,0.103,0.0,"Un restaurante nuevo, que no aportó pedidos al entrenamiento"
+E · versión 1 (promedio con todo),0.23,0.0,El historial del restaurante se calculó espiando también el test
+E · versión 2 (promedio con train),0.23,0.0,"El mismo historial, calculado solo con pedidos que el modelo podía conocer"
